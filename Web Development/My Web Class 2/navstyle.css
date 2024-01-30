@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: AnjaliOldLipi,serif;
+    }
+body{
+
+}
+.banner{
+    width: auto;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url("laptop-5673901_640.jpg");
+}
+.navbar{
+    width: 98%;
+    margin: auto;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a3a4d;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 32px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: bisque;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content h1{
+    font-family: "Abyssinica SIL", serif;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+}
+.cn:hover{
+    background-color: #af6ac2;
+}
+.content span{
+    color: burlywood;
+    font-size: 30px;
+    font-weight: 720;
+}
+.form{
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+    border-radius: 16px;
+    padding: 20px 20px;
+}
+.form input{
+    width: 250px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+}
+.form h2{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    padding: 4px;
+    text-transform: full-size-kana;
+}
+.form::placeholder{
+    color: #3a3a4d;
+}
+.form .btn input{
+    border: none;
+    border-radius: 20px;
+    background-color: wheat;
+    color: black;
+    font-size: 16px;
+    padding: 2px 5px;
+    padding-top: 3px;
+}
+
+.form .link{
+    font-family:sans-serif;
+    padding-top: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: burlywood;
+
+}

@@ -1,0 +1,63 @@
+ body{
+            background: black;
+            color: white;
+            font-family: AnjaliOldLipi,serif;
+    }
+ h1{
+            font-family: Chandas,serif;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bolder;
+            color: crimson;
+     }
+h2{
+            font-family: Chandas,serif;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+            color: chocolate;
+     }
+ h3{
+            font-family: Chandas,serif;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: brown;
+    }
+ h4{
+            font-family: Chandas,serif;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            color: firebrick;
+    }
+ p{
+            text-align: left;
+            font-size: 15px;
+    }
+ #Quotes{
+            text-align: center;
+            font-style: italic;
+            font-weight: lighter;
+            font-size: 10px;
+            color: wheat;
+    }
+ hr{
+            color: white;
+    }
+ form{
+        font-style: normal;
+        font-family: KacstOffice,serif;
+    }
+h5{
+    font-family: "Abyssinica SIL,serif", serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: indianred;
+
+}
+h6 {
+    font-family: "Abyssinica SIL,serif", serif;
+    font-size: 16px;
+    color: lightcoral;
+}

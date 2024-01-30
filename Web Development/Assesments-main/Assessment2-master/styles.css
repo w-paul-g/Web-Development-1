@@ -1,0 +1,29 @@
+header{
+    color: white;
+    background: #3a3a4d;
+    font-family: Chandas,serif;
+    font-size: 24px;
+    text-align: center;
+}
+body{
+    background: black;
+    color: white;
+    font-family: AnjaliOldLipi,serif;
+
+}
+button{
+    font-family: Chandas,serif;
+    background-color: #3a3a4d;
+    outline-width: 1px;
+    color: white;
+}
+form{
+    text-align: center;
+}
+ /*border="1" bgcolor="#skyblue" width="64%" cellpadding="4" cellspacing="0" align="center"*/
+table,th,td{
+    border: solid beige;
+    background-color: #3a3a4d;
+    border-collapse: collapse;
+
+}
